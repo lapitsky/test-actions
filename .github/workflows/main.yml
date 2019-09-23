@@ -11,5 +11,5 @@ jobs:
       id: pull_request_action
       uses: lapitsky/hello-world-javascript-action/@master
       with:
-        title_regex: '\\[ch\\d+\\]|\\[rp\\]|\\[hotfix\\]'
+        title_regex: '\[ch\d+\]|\[rp\]|\[hotfix\]'
         github_token: "${{ secrets.GITHUB_TOKEN }}"
